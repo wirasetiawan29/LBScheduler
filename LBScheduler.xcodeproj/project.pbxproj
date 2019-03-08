@@ -7,179 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13B56AE505B3191E06AC7884 /* Pods_LBSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B61A07E295AA8162E5AC996 /* Pods_LBSchedulerTests.framework */; };
-		5375C260223248FB0025CBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375C25F223248FB0025CBF8 /* AppDelegate.swift */; };
-		5375C262223248FB0025CBF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375C261223248FB0025CBF8 /* ViewController.swift */; };
-		5375C265223248FB0025CBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5375C263223248FB0025CBF8 /* Main.storyboard */; };
-		5375C268223248FB0025CBF8 /* LBScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5375C266223248FB0025CBF8 /* LBScheduler.xcdatamodeld */; };
-		5375C26A223248FE0025CBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5375C269223248FE0025CBF8 /* Assets.xcassets */; };
-		5375C26D223248FE0025CBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5375C26B223248FE0025CBF8 /* LaunchScreen.storyboard */; };
-		5375C278223248FE0025CBF8 /* LBSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375C277223248FE0025CBF8 /* LBSchedulerTests.swift */; };
-		5375C283223248FE0025CBF8 /* LBSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5375C282223248FE0025CBF8 /* LBSchedulerUITests.swift */; };
-		73D5DCA4C872E136BADD129C /* Pods_LBSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC8CC45549BC4D5E37D98BD /* Pods_LBSchedulerUITests.framework */; };
-		92F979106399168A31E781DE /* Pods_LBScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B930FE4488074B0ED00641B /* Pods_LBScheduler.framework */; };
+		5375C29E22324B1A0025CBF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C29D22324B1A0025CBF8 /* AppDelegate.m */; };
+		5375C2A122324B1A0025CBF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2A022324B1A0025CBF8 /* ViewController.m */; };
+		5375C2A422324B1A0025CBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5375C2A222324B1A0025CBF8 /* Main.storyboard */; };
+		5375C2A722324B1A0025CBF8 /* LBScheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2A522324B1A0025CBF8 /* LBScheduler.xcdatamodeld */; };
+		5375C2A922324B1C0025CBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5375C2A822324B1C0025CBF8 /* Assets.xcassets */; };
+		5375C2AC22324B1C0025CBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5375C2AA22324B1C0025CBF8 /* LaunchScreen.storyboard */; };
+		5375C2AF22324B1C0025CBF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2AE22324B1C0025CBF8 /* main.m */; };
+		5375C2B922324B1C0025CBF8 /* LBSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2B822324B1C0025CBF8 /* LBSchedulerTests.m */; };
+		5375C2C422324B1C0025CBF8 /* LBSchedulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2C322324B1C0025CBF8 /* LBSchedulerUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5375C274223248FE0025CBF8 /* PBXContainerItemProxy */ = {
+		5375C2B522324B1C0025CBF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5375C254223248FB0025CBF8 /* Project object */;
+			containerPortal = 5375C29122324B1A0025CBF8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5375C25B223248FB0025CBF8;
+			remoteGlobalIDString = 5375C29822324B1A0025CBF8;
 			remoteInfo = LBScheduler;
 		};
-		5375C27F223248FE0025CBF8 /* PBXContainerItemProxy */ = {
+		5375C2C022324B1C0025CBF8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5375C254223248FB0025CBF8 /* Project object */;
+			containerPortal = 5375C29122324B1A0025CBF8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5375C25B223248FB0025CBF8;
+			remoteGlobalIDString = 5375C29822324B1A0025CBF8;
 			remoteInfo = LBScheduler;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D9F1D54560D18AB5E1340F /* Pods-LBScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler.debug.xcconfig"; sourceTree = "<group>"; };
-		1B61A07E295AA8162E5AC996 /* Pods_LBSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DBB93AA93DE3FAD6705E9CD /* Pods-LBSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerTests/Pods-LBSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D11CF916ED325AB01D3E1BC /* Pods-LBSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerUITests/Pods-LBSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5375C25C223248FB0025CBF8 /* LBScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5375C25F223248FB0025CBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5375C261223248FB0025CBF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5375C264223248FB0025CBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5375C267223248FB0025CBF8 /* LBScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LBScheduler.xcdatamodel; sourceTree = "<group>"; };
-		5375C269223248FE0025CBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5375C26C223248FE0025CBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5375C26E223248FE0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5375C273223248FE0025CBF8 /* LBSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5375C277223248FE0025CBF8 /* LBSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBSchedulerTests.swift; sourceTree = "<group>"; };
-		5375C279223248FE0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5375C27E223248FE0025CBF8 /* LBSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5375C282223248FE0025CBF8 /* LBSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBSchedulerUITests.swift; sourceTree = "<group>"; };
-		5375C284223248FE0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6BC8CC45549BC4D5E37D98BD /* Pods_LBSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B930FE4488074B0ED00641B /* Pods_LBScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD15845FD91C1FAF7E3563A3 /* Pods-LBScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler.release.xcconfig"; sourceTree = "<group>"; };
-		B80B65B2499D6BE774D73BEE /* Pods-LBSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerTests/Pods-LBSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F81AC9E6C326FC3AC0FB0B9D /* Pods-LBSchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerUITests/Pods-LBSchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5375C29922324B1A0025CBF8 /* LBScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375C29C22324B1A0025CBF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5375C29D22324B1A0025CBF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5375C29F22324B1A0025CBF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5375C2A022324B1A0025CBF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5375C2A322324B1A0025CBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5375C2A622324B1A0025CBF8 /* LBScheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LBScheduler.xcdatamodel; sourceTree = "<group>"; };
+		5375C2A822324B1C0025CBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5375C2AB22324B1C0025CBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5375C2AD22324B1C0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5375C2AE22324B1C0025CBF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5375C2B422324B1C0025CBF8 /* LBSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375C2B822324B1C0025CBF8 /* LBSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSchedulerTests.m; sourceTree = "<group>"; };
+		5375C2BA22324B1C0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5375C2BF22324B1C0025CBF8 /* LBSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5375C2C322324B1C0025CBF8 /* LBSchedulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSchedulerUITests.m; sourceTree = "<group>"; };
+		5375C2C522324B1C0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5375C259223248FB0025CBF8 /* Frameworks */ = {
+		5375C29622324B1A0025CBF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92F979106399168A31E781DE /* Pods_LBScheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C270223248FE0025CBF8 /* Frameworks */ = {
+		5375C2B122324B1C0025CBF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B56AE505B3191E06AC7884 /* Pods_LBSchedulerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C27B223248FE0025CBF8 /* Frameworks */ = {
+		5375C2BC22324B1C0025CBF8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D5DCA4C872E136BADD129C /* Pods_LBSchedulerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C13AF6B8160FFE337956C91 /* Frameworks */ = {
+		5375C29022324B1A0025CBF8 = {
 			isa = PBXGroup;
 			children = (
-				9B930FE4488074B0ED00641B /* Pods_LBScheduler.framework */,
-				1B61A07E295AA8162E5AC996 /* Pods_LBSchedulerTests.framework */,
-				6BC8CC45549BC4D5E37D98BD /* Pods_LBSchedulerUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5375C253223248FB0025CBF8 = {
-			isa = PBXGroup;
-			children = (
-				5375C25E223248FB0025CBF8 /* LBScheduler */,
-				5375C276223248FE0025CBF8 /* LBSchedulerTests */,
-				5375C281223248FE0025CBF8 /* LBSchedulerUITests */,
-				5375C25D223248FB0025CBF8 /* Products */,
-				F053C59B8B69E3DB3C0A5651 /* Pods */,
-				1C13AF6B8160FFE337956C91 /* Frameworks */,
+				5375C29B22324B1A0025CBF8 /* LBScheduler */,
+				5375C2B722324B1C0025CBF8 /* LBSchedulerTests */,
+				5375C2C222324B1C0025CBF8 /* LBSchedulerUITests */,
+				5375C29A22324B1A0025CBF8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5375C25D223248FB0025CBF8 /* Products */ = {
+		5375C29A22324B1A0025CBF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5375C25C223248FB0025CBF8 /* LBScheduler.app */,
-				5375C273223248FE0025CBF8 /* LBSchedulerTests.xctest */,
-				5375C27E223248FE0025CBF8 /* LBSchedulerUITests.xctest */,
+				5375C29922324B1A0025CBF8 /* LBScheduler.app */,
+				5375C2B422324B1C0025CBF8 /* LBSchedulerTests.xctest */,
+				5375C2BF22324B1C0025CBF8 /* LBSchedulerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5375C25E223248FB0025CBF8 /* LBScheduler */ = {
+		5375C29B22324B1A0025CBF8 /* LBScheduler */ = {
 			isa = PBXGroup;
 			children = (
-				5375C25F223248FB0025CBF8 /* AppDelegate.swift */,
-				5375C261223248FB0025CBF8 /* ViewController.swift */,
-				5375C263223248FB0025CBF8 /* Main.storyboard */,
-				5375C269223248FE0025CBF8 /* Assets.xcassets */,
-				5375C26B223248FE0025CBF8 /* LaunchScreen.storyboard */,
-				5375C26E223248FE0025CBF8 /* Info.plist */,
-				5375C266223248FB0025CBF8 /* LBScheduler.xcdatamodeld */,
+				5375C29C22324B1A0025CBF8 /* AppDelegate.h */,
+				5375C29D22324B1A0025CBF8 /* AppDelegate.m */,
+				5375C29F22324B1A0025CBF8 /* ViewController.h */,
+				5375C2A022324B1A0025CBF8 /* ViewController.m */,
+				5375C2A222324B1A0025CBF8 /* Main.storyboard */,
+				5375C2A822324B1C0025CBF8 /* Assets.xcassets */,
+				5375C2AA22324B1C0025CBF8 /* LaunchScreen.storyboard */,
+				5375C2AD22324B1C0025CBF8 /* Info.plist */,
+				5375C2AE22324B1C0025CBF8 /* main.m */,
+				5375C2A522324B1A0025CBF8 /* LBScheduler.xcdatamodeld */,
 			);
 			path = LBScheduler;
 			sourceTree = "<group>";
 		};
-		5375C276223248FE0025CBF8 /* LBSchedulerTests */ = {
+		5375C2B722324B1C0025CBF8 /* LBSchedulerTests */ = {
 			isa = PBXGroup;
 			children = (
-				5375C277223248FE0025CBF8 /* LBSchedulerTests.swift */,
-				5375C279223248FE0025CBF8 /* Info.plist */,
+				5375C2B822324B1C0025CBF8 /* LBSchedulerTests.m */,
+				5375C2BA22324B1C0025CBF8 /* Info.plist */,
 			);
 			path = LBSchedulerTests;
 			sourceTree = "<group>";
 		};
-		5375C281223248FE0025CBF8 /* LBSchedulerUITests */ = {
+		5375C2C222324B1C0025CBF8 /* LBSchedulerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5375C282223248FE0025CBF8 /* LBSchedulerUITests.swift */,
-				5375C284223248FE0025CBF8 /* Info.plist */,
+				5375C2C322324B1C0025CBF8 /* LBSchedulerUITests.m */,
+				5375C2C522324B1C0025CBF8 /* Info.plist */,
 			);
 			path = LBSchedulerUITests;
-			sourceTree = "<group>";
-		};
-		F053C59B8B69E3DB3C0A5651 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17D9F1D54560D18AB5E1340F /* Pods-LBScheduler.debug.xcconfig */,
-				AD15845FD91C1FAF7E3563A3 /* Pods-LBScheduler.release.xcconfig */,
-				B80B65B2499D6BE774D73BEE /* Pods-LBSchedulerTests.debug.xcconfig */,
-				1DBB93AA93DE3FAD6705E9CD /* Pods-LBSchedulerTests.release.xcconfig */,
-				2D11CF916ED325AB01D3E1BC /* Pods-LBSchedulerUITests.debug.xcconfig */,
-				F81AC9E6C326FC3AC0FB0B9D /* Pods-LBSchedulerUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5375C25B223248FB0025CBF8 /* LBScheduler */ = {
+		5375C29822324B1A0025CBF8 /* LBScheduler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375C287223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBScheduler" */;
+			buildConfigurationList = 5375C2C822324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBScheduler" */;
 			buildPhases = (
-				197853CBD8690574CF3987B2 /* [CP] Check Pods Manifest.lock */,
-				5375C258223248FB0025CBF8 /* Sources */,
-				5375C259223248FB0025CBF8 /* Frameworks */,
-				5375C25A223248FB0025CBF8 /* Resources */,
-				4E97895A8669520C6DED1248 /* [CP] Embed Pods Frameworks */,
+				5375C29522324B1A0025CBF8 /* Sources */,
+				5375C29622324B1A0025CBF8 /* Frameworks */,
+				5375C29722324B1A0025CBF8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -187,71 +152,68 @@
 			);
 			name = LBScheduler;
 			productName = LBScheduler;
-			productReference = 5375C25C223248FB0025CBF8 /* LBScheduler.app */;
+			productReference = 5375C29922324B1A0025CBF8 /* LBScheduler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5375C272223248FE0025CBF8 /* LBSchedulerTests */ = {
+		5375C2B322324B1C0025CBF8 /* LBSchedulerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375C28A223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerTests" */;
+			buildConfigurationList = 5375C2CB22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerTests" */;
 			buildPhases = (
-				3CCF00E4F0A76388223FD2B8 /* [CP] Check Pods Manifest.lock */,
-				5375C26F223248FE0025CBF8 /* Sources */,
-				5375C270223248FE0025CBF8 /* Frameworks */,
-				5375C271223248FE0025CBF8 /* Resources */,
+				5375C2B022324B1C0025CBF8 /* Sources */,
+				5375C2B122324B1C0025CBF8 /* Frameworks */,
+				5375C2B222324B1C0025CBF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5375C275223248FE0025CBF8 /* PBXTargetDependency */,
+				5375C2B622324B1C0025CBF8 /* PBXTargetDependency */,
 			);
 			name = LBSchedulerTests;
 			productName = LBSchedulerTests;
-			productReference = 5375C273223248FE0025CBF8 /* LBSchedulerTests.xctest */;
+			productReference = 5375C2B422324B1C0025CBF8 /* LBSchedulerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5375C27D223248FE0025CBF8 /* LBSchedulerUITests */ = {
+		5375C2BE22324B1C0025CBF8 /* LBSchedulerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5375C28D223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerUITests" */;
+			buildConfigurationList = 5375C2CE22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerUITests" */;
 			buildPhases = (
-				756AEC16AEF4E99A82958FC6 /* [CP] Check Pods Manifest.lock */,
-				5375C27A223248FE0025CBF8 /* Sources */,
-				5375C27B223248FE0025CBF8 /* Frameworks */,
-				5375C27C223248FE0025CBF8 /* Resources */,
+				5375C2BB22324B1C0025CBF8 /* Sources */,
+				5375C2BC22324B1C0025CBF8 /* Frameworks */,
+				5375C2BD22324B1C0025CBF8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5375C280223248FE0025CBF8 /* PBXTargetDependency */,
+				5375C2C122324B1C0025CBF8 /* PBXTargetDependency */,
 			);
 			name = LBSchedulerUITests;
 			productName = LBSchedulerUITests;
-			productReference = 5375C27E223248FE0025CBF8 /* LBSchedulerUITests.xctest */;
+			productReference = 5375C2BF22324B1C0025CBF8 /* LBSchedulerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5375C254223248FB0025CBF8 /* Project object */ = {
+		5375C29122324B1A0025CBF8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Wira Setiawan";
 				TargetAttributes = {
-					5375C25B223248FB0025CBF8 = {
+					5375C29822324B1A0025CBF8 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					5375C272223248FE0025CBF8 = {
+					5375C2B322324B1C0025CBF8 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 5375C25B223248FB0025CBF8;
+						TestTargetID = 5375C29822324B1A0025CBF8;
 					};
-					5375C27D223248FE0025CBF8 = {
+					5375C2BE22324B1C0025CBF8 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 5375C25B223248FB0025CBF8;
+						TestTargetID = 5375C29822324B1A0025CBF8;
 					};
 				};
 			};
-			buildConfigurationList = 5375C257223248FB0025CBF8 /* Build configuration list for PBXProject "LBScheduler" */;
+			buildConfigurationList = 5375C29422324B1A0025CBF8 /* Build configuration list for PBXProject "LBScheduler" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -259,37 +221,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 5375C253223248FB0025CBF8;
-			productRefGroup = 5375C25D223248FB0025CBF8 /* Products */;
+			mainGroup = 5375C29022324B1A0025CBF8;
+			productRefGroup = 5375C29A22324B1A0025CBF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5375C25B223248FB0025CBF8 /* LBScheduler */,
-				5375C272223248FE0025CBF8 /* LBSchedulerTests */,
-				5375C27D223248FE0025CBF8 /* LBSchedulerUITests */,
+				5375C29822324B1A0025CBF8 /* LBScheduler */,
+				5375C2B322324B1C0025CBF8 /* LBSchedulerTests */,
+				5375C2BE22324B1C0025CBF8 /* LBSchedulerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5375C25A223248FB0025CBF8 /* Resources */ = {
+		5375C29722324B1A0025CBF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5375C26D223248FE0025CBF8 /* LaunchScreen.storyboard in Resources */,
-				5375C26A223248FE0025CBF8 /* Assets.xcassets in Resources */,
-				5375C265223248FB0025CBF8 /* Main.storyboard in Resources */,
+				5375C2AC22324B1C0025CBF8 /* LaunchScreen.storyboard in Resources */,
+				5375C2A922324B1C0025CBF8 /* Assets.xcassets in Resources */,
+				5375C2A422324B1A0025CBF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C271223248FE0025CBF8 /* Resources */ = {
+		5375C2B222324B1C0025CBF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C27C223248FE0025CBF8 /* Resources */ = {
+		5375C2BD22324B1C0025CBF8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -298,152 +260,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		197853CBD8690574CF3987B2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LBScheduler-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CCF00E4F0A76388223FD2B8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LBSchedulerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4E97895A8669520C6DED1248 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Selene/Selene.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Selene.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		756AEC16AEF4E99A82958FC6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LBSchedulerUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		5375C258223248FB0025CBF8 /* Sources */ = {
+		5375C29522324B1A0025CBF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5375C262223248FB0025CBF8 /* ViewController.swift in Sources */,
-				5375C268223248FB0025CBF8 /* LBScheduler.xcdatamodeld in Sources */,
-				5375C260223248FB0025CBF8 /* AppDelegate.swift in Sources */,
+				5375C2A122324B1A0025CBF8 /* ViewController.m in Sources */,
+				5375C2A722324B1A0025CBF8 /* LBScheduler.xcdatamodeld in Sources */,
+				5375C2AF22324B1C0025CBF8 /* main.m in Sources */,
+				5375C29E22324B1A0025CBF8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C26F223248FE0025CBF8 /* Sources */ = {
+		5375C2B022324B1C0025CBF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5375C278223248FE0025CBF8 /* LBSchedulerTests.swift in Sources */,
+				5375C2B922324B1C0025CBF8 /* LBSchedulerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5375C27A223248FE0025CBF8 /* Sources */ = {
+		5375C2BB22324B1C0025CBF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5375C283223248FE0025CBF8 /* LBSchedulerUITests.swift in Sources */,
+				5375C2C422324B1C0025CBF8 /* LBSchedulerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5375C275223248FE0025CBF8 /* PBXTargetDependency */ = {
+		5375C2B622324B1C0025CBF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5375C25B223248FB0025CBF8 /* LBScheduler */;
-			targetProxy = 5375C274223248FE0025CBF8 /* PBXContainerItemProxy */;
+			target = 5375C29822324B1A0025CBF8 /* LBScheduler */;
+			targetProxy = 5375C2B522324B1C0025CBF8 /* PBXContainerItemProxy */;
 		};
-		5375C280223248FE0025CBF8 /* PBXTargetDependency */ = {
+		5375C2C122324B1C0025CBF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5375C25B223248FB0025CBF8 /* LBScheduler */;
-			targetProxy = 5375C27F223248FE0025CBF8 /* PBXContainerItemProxy */;
+			target = 5375C29822324B1A0025CBF8 /* LBScheduler */;
+			targetProxy = 5375C2C022324B1C0025CBF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5375C263223248FB0025CBF8 /* Main.storyboard */ = {
+		5375C2A222324B1A0025CBF8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5375C264223248FB0025CBF8 /* Base */,
+				5375C2A322324B1A0025CBF8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5375C26B223248FE0025CBF8 /* LaunchScreen.storyboard */ = {
+		5375C2AA22324B1C0025CBF8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5375C26C223248FE0025CBF8 /* Base */,
+				5375C2AB22324B1C0025CBF8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -451,7 +323,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5375C285223248FE0025CBF8 /* Debug */ = {
+		5375C2C622324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -507,12 +379,10 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		5375C286223248FE0025CBF8 /* Release */ = {
+		5375C2C722324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -561,15 +431,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5375C288223248FE0025CBF8 /* Debug */ = {
+		5375C2C922324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17D9F1D54560D18AB5E1340F /* Pods-LBScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,14 +448,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5375C289223248FE0025CBF8 /* Release */ = {
+		5375C2CA22324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD15845FD91C1FAF7E3563A3 /* Pods-LBScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -600,16 +465,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5375C28B223248FE0025CBF8 /* Debug */ = {
+		5375C2CC22324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B80B65B2499D6BE774D73BEE /* Pods-LBSchedulerTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
@@ -621,17 +483,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBSchedulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBScheduler.app/LBScheduler";
 			};
 			name = Debug;
 		};
-		5375C28C223248FE0025CBF8 /* Release */ = {
+		5375C2CD22324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DBB93AA93DE3FAD6705E9CD /* Pods-LBSchedulerTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
@@ -643,17 +502,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBSchedulerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBScheduler.app/LBScheduler";
 			};
 			name = Release;
 		};
-		5375C28E223248FE0025CBF8 /* Debug */ = {
+		5375C2CF22324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D11CF916ED325AB01D3E1BC /* Pods-LBSchedulerUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
 				INFOPLIST_FILE = LBSchedulerUITests/Info.plist;
@@ -664,17 +520,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBSchedulerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LBScheduler;
 			};
 			name = Debug;
 		};
-		5375C28F223248FE0025CBF8 /* Release */ = {
+		5375C2D022324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F81AC9E6C326FC3AC0FB0B9D /* Pods-LBSchedulerUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
 				INFOPLIST_FILE = LBSchedulerUITests/Info.plist;
@@ -685,7 +538,6 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirasetiawan29.LBSchedulerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LBScheduler;
 			};
@@ -694,38 +546,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5375C257223248FB0025CBF8 /* Build configuration list for PBXProject "LBScheduler" */ = {
+		5375C29422324B1A0025CBF8 /* Build configuration list for PBXProject "LBScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5375C285223248FE0025CBF8 /* Debug */,
-				5375C286223248FE0025CBF8 /* Release */,
+				5375C2C622324B1C0025CBF8 /* Debug */,
+				5375C2C722324B1C0025CBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375C287223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBScheduler" */ = {
+		5375C2C822324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBScheduler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5375C288223248FE0025CBF8 /* Debug */,
-				5375C289223248FE0025CBF8 /* Release */,
+				5375C2C922324B1C0025CBF8 /* Debug */,
+				5375C2CA22324B1C0025CBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375C28A223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerTests" */ = {
+		5375C2CB22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5375C28B223248FE0025CBF8 /* Debug */,
-				5375C28C223248FE0025CBF8 /* Release */,
+				5375C2CC22324B1C0025CBF8 /* Debug */,
+				5375C2CD22324B1C0025CBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5375C28D223248FE0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerUITests" */ = {
+		5375C2CE22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5375C28E223248FE0025CBF8 /* Debug */,
-				5375C28F223248FE0025CBF8 /* Release */,
+				5375C2CF22324B1C0025CBF8 /* Debug */,
+				5375C2D022324B1C0025CBF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -733,17 +585,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5375C266223248FB0025CBF8 /* LBScheduler.xcdatamodeld */ = {
+		5375C2A522324B1A0025CBF8 /* LBScheduler.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5375C267223248FB0025CBF8 /* LBScheduler.xcdatamodel */,
+				5375C2A622324B1A0025CBF8 /* LBScheduler.xcdatamodel */,
 			);
-			currentVersion = 5375C267223248FB0025CBF8 /* LBScheduler.xcdatamodel */;
+			currentVersion = 5375C2A622324B1A0025CBF8 /* LBScheduler.xcdatamodel */;
 			path = LBScheduler.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 5375C254223248FB0025CBF8 /* Project object */;
+	rootObject = 5375C29122324B1A0025CBF8 /* Project object */;
 }
