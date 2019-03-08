@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0CC74EC5506F4AACEEC463 /* Pods_LBSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A73D1A7F53E545036E8423A /* Pods_LBSchedulerTests.framework */; };
+		38E7F8CD0F3474DC2222AFF2 /* Pods_LBSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69081E4FD2B00C03943F109 /* Pods_LBSchedulerUITests.framework */; };
 		5375C29E22324B1A0025CBF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C29D22324B1A0025CBF8 /* AppDelegate.m */; };
 		5375C2A122324B1A0025CBF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2A022324B1A0025CBF8 /* ViewController.m */; };
 		5375C2A422324B1A0025CBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5375C2A222324B1A0025CBF8 /* Main.storyboard */; };
@@ -16,6 +18,7 @@
 		5375C2AF22324B1C0025CBF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2AE22324B1C0025CBF8 /* main.m */; };
 		5375C2B922324B1C0025CBF8 /* LBSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2B822324B1C0025CBF8 /* LBSchedulerTests.m */; };
 		5375C2C422324B1C0025CBF8 /* LBSchedulerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5375C2C322324B1C0025CBF8 /* LBSchedulerUITests.m */; };
+		E37001D76DB602332F4DAA05 /* Pods_LBScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4EBF0CDA44A08417BFD92E /* Pods_LBScheduler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D226CC19DDC430FD23BBBD6 /* Pods-LBSchedulerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerUITests/Pods-LBSchedulerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42DD3D4E9C2E6A39D4BDD5AD /* Pods-LBSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerTests/Pods-LBSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5375C29922324B1A0025CBF8 /* LBScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5375C29C22324B1A0025CBF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5375C29D22324B1A0025CBF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		5375C2BF22324B1C0025CBF8 /* LBSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5375C2C322324B1C0025CBF8 /* LBSchedulerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBSchedulerUITests.m; sourceTree = "<group>"; };
 		5375C2C522324B1C0025CBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A73D1A7F53E545036E8423A /* Pods_LBSchedulerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBSchedulerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A012CC7F77EACE067040F1BB /* Pods-LBScheduler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBScheduler.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler.release.xcconfig"; sourceTree = "<group>"; };
+		B44A3873E84FDB365BE3E97D /* Pods-LBScheduler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBScheduler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7B4D884EF0E85C0C7C162E /* Pods-LBSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerTests/Pods-LBSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF4EBF0CDA44A08417BFD92E /* Pods_LBScheduler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBScheduler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1971E312CF2E6429DB83804 /* Pods-LBSchedulerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBSchedulerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBSchedulerUITests/Pods-LBSchedulerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D69081E4FD2B00C03943F109 /* Pods_LBSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E37001D76DB602332F4DAA05 /* Pods_LBScheduler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A0CC74EC5506F4AACEEC463 /* Pods_LBSchedulerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E7F8CD0F3474DC2222AFF2 /* Pods_LBSchedulerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040D1C0DEE3B2EDECB8F7D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EBF0CDA44A08417BFD92E /* Pods_LBScheduler.framework */,
+				8A73D1A7F53E545036E8423A /* Pods_LBSchedulerTests.framework */,
+				D69081E4FD2B00C03943F109 /* Pods_LBSchedulerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5375C29022324B1A0025CBF8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				5375C2B722324B1C0025CBF8 /* LBSchedulerTests */,
 				5375C2C222324B1C0025CBF8 /* LBSchedulerUITests */,
 				5375C29A22324B1A0025CBF8 /* Products */,
+				F7934B16619E6955911DFBFE /* Pods */,
+				040D1C0DEE3B2EDECB8F7D18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +162,19 @@
 			path = LBSchedulerUITests;
 			sourceTree = "<group>";
 		};
+		F7934B16619E6955911DFBFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B44A3873E84FDB365BE3E97D /* Pods-LBScheduler.debug.xcconfig */,
+				A012CC7F77EACE067040F1BB /* Pods-LBScheduler.release.xcconfig */,
+				42DD3D4E9C2E6A39D4BDD5AD /* Pods-LBSchedulerTests.debug.xcconfig */,
+				CE7B4D884EF0E85C0C7C162E /* Pods-LBSchedulerTests.release.xcconfig */,
+				D1971E312CF2E6429DB83804 /* Pods-LBSchedulerUITests.debug.xcconfig */,
+				1D226CC19DDC430FD23BBBD6 /* Pods-LBSchedulerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5375C2C822324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBScheduler" */;
 			buildPhases = (
+				E18085A1CE3D954764087AD6 /* [CP] Check Pods Manifest.lock */,
 				5375C29522324B1A0025CBF8 /* Sources */,
 				5375C29622324B1A0025CBF8 /* Frameworks */,
 				5375C29722324B1A0025CBF8 /* Resources */,
+				F239DCEC7FB9E83301770B16 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5375C2CB22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerTests" */;
 			buildPhases = (
+				0AD291411A51CF708006183A /* [CP] Check Pods Manifest.lock */,
 				5375C2B022324B1C0025CBF8 /* Sources */,
 				5375C2B122324B1C0025CBF8 /* Frameworks */,
 				5375C2B222324B1C0025CBF8 /* Resources */,
@@ -177,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5375C2CE22324B1C0025CBF8 /* Build configuration list for PBXNativeTarget "LBSchedulerUITests" */;
 			buildPhases = (
+				6F816139D0D84CEC684CCB98 /* [CP] Check Pods Manifest.lock */,
 				5375C2BB22324B1C0025CBF8 /* Sources */,
 				5375C2BC22324B1C0025CBF8 /* Frameworks */,
 				5375C2BD22324B1C0025CBF8 /* Resources */,
@@ -259,6 +303,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD291411A51CF708006183A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBSchedulerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F816139D0D84CEC684CCB98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBSchedulerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18085A1CE3D954764087AD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBScheduler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F239DCEC7FB9E83301770B16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Selene/Selene.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Selene.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBScheduler/Pods-LBScheduler-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5375C29522324B1A0025CBF8 /* Sources */ = {
@@ -437,6 +572,7 @@
 		};
 		5375C2C922324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44A3873E84FDB365BE3E97D /* Pods-LBScheduler.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +590,7 @@
 		};
 		5375C2CA22324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A012CC7F77EACE067040F1BB /* Pods-LBScheduler.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -471,6 +608,7 @@
 		};
 		5375C2CC22324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DD3D4E9C2E6A39D4BDD5AD /* Pods-LBSchedulerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +628,7 @@
 		};
 		5375C2CD22324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7B4D884EF0E85C0C7C162E /* Pods-LBSchedulerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +648,7 @@
 		};
 		5375C2CF22324B1C0025CBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1971E312CF2E6429DB83804 /* Pods-LBSchedulerUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
@@ -527,6 +667,7 @@
 		};
 		5375C2D022324B1C0025CBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D226CC19DDC430FD23BBBD6 /* Pods-LBSchedulerUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8T9QUN6LP;
